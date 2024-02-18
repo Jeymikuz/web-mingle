@@ -1,8 +1,78 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "web-mingle.identity", "web-mingle.identity", "{9CEBBF3E-DABD-41D6-87E5-26894E4C5A66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "web-mingle.identity.api", "src\web-mingle.identity\web-mingle.identity.api\web-mingle.identity.api.csproj", "{64DE510F-99E2-4CE4-9348-0384F7170CA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "web-mingle.identity.core", "src\web-mingle.identity\web-mingle.identity.core\web-mingle.identity.core.csproj", "{93372DFF-7E07-4538-B152-8FB8CFDDABAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "web-mingle.identity.infrastructure", "src\web-mingle.identity\web-mingle.identity.infrastructure\web-mingle.identity.infrastructure.csproj", "{61BACD54-02D2-4F53-972F-0ECA463E601A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "web-mingle.identity.domain", "src\web-mingle.identity\web-mingle.identity.domain\web-mingle.identity.domain.csproj", "{05DA84A1-5B94-4973-87F5-DC019CAF3BB8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2E607B33-C2FB-4426-81C1-2A342D5B065A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{E01BA49D-4CF1-42DE-B9B3-69258E81E138}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "web-mingle.orders", "web-mingle.orders", "{01B5958E-3F70-4CDB-8D30-0972131BCC36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "web-mingle.orders.api", "src\web-mingle.orders\web-mingle.orders.api\web-mingle.orders.api.csproj", "{D94611B3-884D-4E1C-AA28-CF947EF4A900}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "web-mingle.orders.core", "src\web-mingle.orders\web-mingle.orders.core\web-mingle.orders.core.csproj", "{C327FAF8-0D29-42A2-A700-CD4301A34F53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "web-mingle.orders.domain", "src\web-mingle.orders\web-mingle.orders.domain\web-mingle.orders.domain.csproj", "{E9593499-AC8E-4756-9809-6556CD66BC84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "web-mingle.orders.infrastructure", "src\web-mingle.orders\web-mingle.orders.infrastructure\web-mingle.orders.infrastructure.csproj", "{5AEEC141-D965-4A1F-AA1A-4F7E5EDDE6B1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{64DE510F-99E2-4CE4-9348-0384F7170CA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64DE510F-99E2-4CE4-9348-0384F7170CA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64DE510F-99E2-4CE4-9348-0384F7170CA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64DE510F-99E2-4CE4-9348-0384F7170CA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93372DFF-7E07-4538-B152-8FB8CFDDABAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93372DFF-7E07-4538-B152-8FB8CFDDABAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93372DFF-7E07-4538-B152-8FB8CFDDABAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93372DFF-7E07-4538-B152-8FB8CFDDABAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61BACD54-02D2-4F53-972F-0ECA463E601A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61BACD54-02D2-4F53-972F-0ECA463E601A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61BACD54-02D2-4F53-972F-0ECA463E601A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61BACD54-02D2-4F53-972F-0ECA463E601A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05DA84A1-5B94-4973-87F5-DC019CAF3BB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05DA84A1-5B94-4973-87F5-DC019CAF3BB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05DA84A1-5B94-4973-87F5-DC019CAF3BB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05DA84A1-5B94-4973-87F5-DC019CAF3BB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D94611B3-884D-4E1C-AA28-CF947EF4A900}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D94611B3-884D-4E1C-AA28-CF947EF4A900}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D94611B3-884D-4E1C-AA28-CF947EF4A900}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D94611B3-884D-4E1C-AA28-CF947EF4A900}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C327FAF8-0D29-42A2-A700-CD4301A34F53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C327FAF8-0D29-42A2-A700-CD4301A34F53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C327FAF8-0D29-42A2-A700-CD4301A34F53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C327FAF8-0D29-42A2-A700-CD4301A34F53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9593499-AC8E-4756-9809-6556CD66BC84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9593499-AC8E-4756-9809-6556CD66BC84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9593499-AC8E-4756-9809-6556CD66BC84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9593499-AC8E-4756-9809-6556CD66BC84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AEEC141-D965-4A1F-AA1A-4F7E5EDDE6B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AEEC141-D965-4A1F-AA1A-4F7E5EDDE6B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AEEC141-D965-4A1F-AA1A-4F7E5EDDE6B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AEEC141-D965-4A1F-AA1A-4F7E5EDDE6B1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{64DE510F-99E2-4CE4-9348-0384F7170CA7} = {9CEBBF3E-DABD-41D6-87E5-26894E4C5A66}
+		{93372DFF-7E07-4538-B152-8FB8CFDDABAA} = {9CEBBF3E-DABD-41D6-87E5-26894E4C5A66}
+		{61BACD54-02D2-4F53-972F-0ECA463E601A} = {9CEBBF3E-DABD-41D6-87E5-26894E4C5A66}
+		{05DA84A1-5B94-4973-87F5-DC019CAF3BB8} = {9CEBBF3E-DABD-41D6-87E5-26894E4C5A66}
+		{9CEBBF3E-DABD-41D6-87E5-26894E4C5A66} = {2E607B33-C2FB-4426-81C1-2A342D5B065A}
+		{01B5958E-3F70-4CDB-8D30-0972131BCC36} = {2E607B33-C2FB-4426-81C1-2A342D5B065A}
+		{D94611B3-884D-4E1C-AA28-CF947EF4A900} = {01B5958E-3F70-4CDB-8D30-0972131BCC36}
+		{C327FAF8-0D29-42A2-A700-CD4301A34F53} = {01B5958E-3F70-4CDB-8D30-0972131BCC36}
+		{E9593499-AC8E-4756-9809-6556CD66BC84} = {01B5958E-3F70-4CDB-8D30-0972131BCC36}
+		{5AEEC141-D965-4A1F-AA1A-4F7E5EDDE6B1} = {01B5958E-3F70-4CDB-8D30-0972131BCC36}
 	EndGlobalSection
 EndGlobal
